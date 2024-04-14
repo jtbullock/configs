@@ -3,21 +3,21 @@ return {
 		"williamboman/mason.nvim",
 		config = function()
 			require("mason").setup()
-		end
+		end,
 	},
 	{
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
 			require("mason-lspconfig").setup({
-				ensure_installed = { "lua_ls", "java_language_server" }
+				ensure_installed = { "lua_ls", "java_language_server" },
 			})
-		end
+		end,
 	},
 	{
 		"neovim/nvim-lspconfig",
 		config = function()
 			local lspconfig = require("lspconfig")
 			lspconfig.lua_ls.setup({})
-		end
-	}
+		end,
+	},
 }
