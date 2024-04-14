@@ -1,7 +1,8 @@
 vim.cmd("set tabstop=2")
-vim.cmd("set nowrap")
 vim.cmd("set number")
 vim.cmd("set shiftwidth=2")
+vim.cmd("set cc=+1")
+vim.cmd("set textwidth=80")
 --vim.cmd("set softtabstop=4")
 --vim.cmd("set noautoindent")
 
