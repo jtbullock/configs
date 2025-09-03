@@ -1,0 +1,22 @@
+[[language]]
+name = "c"
+language-servers = [ "clangd" ]
+auto-format = true
+
+[html]
+language-server = { command = "vscode-html-language-server", args = ["--stdio"] }
+
+[css]
+language-server = { command = "vscode-css-language-server", args = ["--stdio"] }
+
+[md]
+language-server = { command = "vscode-markdown-language-server", args = ["--stdio"] }
+
+[json]
+language-server = { command = "vscode-json-language-server", args = ["--stdio"] }
+
+[javascript]
+language-server = { command = "typescript-language-server", args = ["--stdio"] }
+
+[typescript]
+language-server = { command = "typescript-language-server", args = ["--stdio"] }

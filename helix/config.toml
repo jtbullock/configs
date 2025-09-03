@@ -1,0 +1,5 @@
+[editor]
+bufferline = "multiple"
+cursorline = true
+rulers = [80, 120]
+line-number = "relative"
