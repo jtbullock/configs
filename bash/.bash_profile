@@ -1,6 +1,3 @@
-#PS1='\u@\h \w > '
-#PS1='[\u@\h] [\w] '
-
 # Function to get Git branch and status
 git_prompt_info() {
     # Check if we're inside a Git repo
@@ -19,3 +16,8 @@ git_prompt_info() {
 }
 
 PS1='\[\e[35m\][\u@\h] [\w] \[\e[36m\]$(git_prompt_info)\[\e[0m\]'
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
+alias sbcl="rlwrap sbcl"
+alias lisp="rlwrap sbcl"
