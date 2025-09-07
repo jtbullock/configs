@@ -21,3 +21,12 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias sbcl="rlwrap sbcl"
 alias lisp="rlwrap sbcl"
+
+alias lsl="ls -lh"
+alias lsd="ls -tlh"
+
+if which luaver > /dev/null; then . `which luaver`; fi
+
+#[ -s "$HOME/.luaver/luaver" ] && . "$HOME/.luaver/luaver"
+
+#eval "$(luarocks path)"
