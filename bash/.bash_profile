@@ -21,3 +21,8 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 alias sbcl="rlwrap sbcl"
 alias lisp="rlwrap sbcl"
+
+source /opt/homebrew/opt/chruby/share/chruby/chruby.sh
+source /opt/homebrew/opt/chruby/share/chruby/auto.sh
+
+chruby ruby-3.4.5

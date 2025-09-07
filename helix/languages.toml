@@ -20,3 +20,12 @@ language-server = { command = "typescript-language-server", args = ["--stdio"] }
 
 [typescript]
 language-server = { command = "typescript-language-server", args = ["--stdio"] }
+
+[language-server.ruby-lsp]
+command = "ruby-lsp"
+
+[[language]]
+name = "ruby"
+language-servers = ["ruby-lsp", "solargraph"]
+auto-format = true
+formatter = { command = "rufo", args = ["--simple-exit"] }
