@@ -2,5 +2,5 @@
 bufferline = "multiple"
 cursorline = true
 rulers = [80, 120]
-line-number = "relative"
+#line-number = "relative"
 auto-pairs = false

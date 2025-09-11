@@ -21,11 +21,12 @@ language-server = { command = "typescript-language-server", args = ["--stdio"] }
 [typescript]
 language-server = { command = "typescript-language-server", args = ["--stdio"] }
 
-[language-server.ruby-lsp]
-command = "ruby-lsp"
+[language-server.solargraph]
+command = "bundle"
+args = ["exec", "solargraph", "stdio"]
 
 [[language]]
 name = "ruby"
-language-servers = ["ruby-lsp", "solargraph"]
+language-servers = ["solargraph"]
 auto-format = true
-formatter = { command = "rufo", args = ["--simple-exit"] }
+formatter = { command = "bundle", args = ["exec", "rubocop", "--auto-correct", "--format", "quiet", "--stdin", "temp.rb"] }
