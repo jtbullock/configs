@@ -30,3 +30,6 @@ chruby ruby-3.4.5
 alias lsl="ls -lh"
 alias lsd="ls -tlh"
 
+
+# Created by `pipx` on 2025-09-24 23:09:32
+export PATH="$PATH:/Users/joshbullock/.local/bin"

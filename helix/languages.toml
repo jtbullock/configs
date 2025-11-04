@@ -1,6 +1,7 @@
 [[language]]
 name = "c"
 language-servers = [ "clangd" ]
+file-types = ["c", "h"]
 auto-format = true
 
 [html]
