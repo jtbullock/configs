@@ -4,6 +4,10 @@ language-servers = [ "clangd" ]
 file-types = ["c", "h"]
 auto-format = true
 
+[[language]]
+name = "python"
+language-servers = [ "pyright" ] # Or "pylsp", or "ty"
+
 [html]
 language-server = { command = "vscode-html-language-server", args = ["--stdio"] }
 
