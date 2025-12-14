@@ -6,3 +6,4 @@ cursorline = true
 rulers = [80, 120]
 #line-number = "relative"
 auto-pairs = false
+color-modes = true
